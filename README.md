@@ -12,6 +12,7 @@
 ### 4 GET A DETAILED REPORT
 ###      IVO TU
 
+
 # SETUP
 ### - CLONE/FORK REPO - (whatever your intention is) 
 
@@ -24,10 +25,10 @@
 <img src="photo/unnecessary.png"> 
 
 
-# IMPORTANT TO NOTE
-## THE ALGORITHM MAKES A FEW ASSUMPTIONS
-### 1. if the csv output parsed after removing default first line and tm email are the same length then it flags all students as present. 
-### 2. In all instances it will flag all non Moringa School emails as foreign, together with students not in the studentlist and give report  
+## ALGORITHM SCOPE
+### 1. If the email is not present on the csv but present on the student list, the student is flagged as absent 
+### 2. All Non-Moringa school emails and emails not present in the studet list are flagged as alien
+### What else could a TM ask for?
 
 
 
